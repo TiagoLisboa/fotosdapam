@@ -1,0 +1,78 @@
+img{
+  max-width: 100%;
+}
+
+body
+{
+  font-size: 1.5em;
+}
+
+.header
+{
+  background-color: #F3C8D9; /*rgba(243,200,217, 0.9);*/
+  padding: 5px 50px;
+  position: fixed;
+    top: 0;
+  width: 100%;
+}
+  .icon
+  {
+    width: 10%;
+  }
+
+.inicio
+{
+  background-image: url("../imgs/capa.jpg");
+  height: 700px;
+}
+
+.quem-somos
+{
+  background-image: url("../imgs/QUEM_SOMOS_2017_(2).jpg");
+  padding: 20px 0;
+  height: 400px;
+  /*background-color: #FBEDE4;*/
+}
+
+.promo
+{
+  padding-bottom: 20px;
+  background-color: #FCECDC;
+}
+  .promocao
+  {
+    background-color: rgba(255,255,255,0.4);
+    padding-bottom: 20px;
+  }
+    .promocao h3
+    {
+      padding-bottom: 20px;
+    }
+
+/*  CLASSES GENÉRICAS   */
+.sessao
+{
+  width: 100%;
+  display: table;
+}
+  .conteudo
+  {
+    background-color: rgba(255,255,255,0.8);
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    text-align: justify;
+    /*font-size: 1.3em;*/
+  }
+  .center
+  {
+    text-align: center;
+  }
+.paralax
+{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;;
+}
