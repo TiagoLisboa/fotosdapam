@@ -33,6 +33,7 @@ body
   /*padding: 20px 0;*/
   height: 400px;
   /*background-color: #FBEDE4;*/
+  position: relative;
 }
 
 .promo
@@ -56,7 +57,34 @@ body
   background-color: #121212;
   color: #f9f9f9;
 }
+
+.portfolio
+{
+  background-image: url("../imgs/TaizaJusabe_158.JPG");
+  position: relative;
+  -webkit-transition: background-image 0.5s linear;
+  -o-transition: background-image 0.5s linear;
+  transition: background-image 0.5s linear;
+}
+  .portfolio .row
+  {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
 /*  CLASSES GENÉRICAS   */
+.color,
+.back
+{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.color
+{
+  background-color: rgba(100, 100, 100, 0.3);
+}
 .sessao
 {
   padding-top: 50px;
